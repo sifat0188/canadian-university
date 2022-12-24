@@ -1,0 +1,120 @@
+
+
+*{ margin: 0;
+    padding: 0;
+ box-sizing: border-box;}
+ a{text-decoration: none;}
+
+.ab{width: 100%;
+height: 100vh;
+background: url(img/received_1677537262622687.jpg.jpeg);
+background-size: cover;
+background-position: center;
+}
+.bc{
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.cd{
+    width: 100%;
+}
+.cd{display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.cd a img{
+    width: 300px;
+}
+.cd a h1 {
+    color: rgb(252, 248, 248);
+    
+    text-transform: uppercase;
+    font family:cursive;
+   
+    margin: :left 15px;
+
+
+}
+.ba{
+    width: 40%;
+
+}
+.ba ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ba ul li{
+    position: relative;
+
+}
+.ba ul li::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: rgb(148, 147, 147);
+    bottom: -10px;
+    left: 0;
+    transition: 2s all ease-in-out;
+    
+   
+}
+.ba ul li:hover:after{ width: 100%;}
+.ba ul li a{
+    color: aliceblue;
+    font-family: lato;
+    font-size: 15px;
+    transition: 0.5s all ease-in-out;
+    
+    
+    
+}
+
+
+.ba ul li a:hover{
+    color: black;
+}
+.who{
+    text-align: center;
+    weight:100% ;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.who h1{
+    color: rgb(255, 11, 11);
+    font-family: lato;
+    font-size: 40px;
+}
+.lk {color: red;
+
+    font-family: lato;
+    font size: 20%px;
+    
+}
+.sifat{ font-size: medium; 
+   
+   background-image: url(img/FB_IMG_1671842133653.jpg);
+width: 300px;
+background: rgb(0,0,0,8);
+margin: 8% auto;
+padding: 30px 0;
+color: #fff;
+box-shadow: 0 0 20px rgb(0,0,0,5);
+
+.h1{text-align: center;
+color:#fff}
+
+margin-bottom:40px;
+}
